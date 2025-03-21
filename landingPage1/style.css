@@ -1,0 +1,287 @@
+/* Réinitialisation du navigateur */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style général de page */
+
+body {
+  background-image: url("./img/imagepc2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+/* style section introduction  */
+
+.introduction{
+  width: 680px;
+  height: 450px;
+  text-align: left;
+  margin: 170px 65px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 5.5rem;
+}
+
+
+.introduction p{
+  font-size:1.5rem;
+  width: 568px;
+  font-weight: 300;
+  word-spacing: 2px;
+  line-height: 32px;
+}
+
+.introduction p, h1 {
+  margin-bottom: 24px;
+}
+
+.introduction button {
+  min-width: 210px;
+  padding: 22px 44px;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.introduction button:hover{
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* style sectoin block  */
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.block_group{
+  width: 410px;
+  height: 230px;
+  background: linear-gradient(90deg, rgba(77, 76, 76, 0.8) 0%, rgba(83, 83, 83, 0.4) 100%);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+
+.block_group:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  transition: all 0.3s ease-in-out;
+}
+
+.block-bold{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.block_text{
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 1.5rem;
+}
+
+.block-bold, .block_text{
+  padding: 20px 24px;
+}
+
+
+
+
+
+@media (max-width:1400px) {
+  body {
+    background: url("./img/imagePc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+  }
+
+  .introduction{
+    width: 450px;
+    height: 350px;
+    margin: 120px 45px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .introduction p{
+    font-size:1.2rem;
+    width: 468px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 32px;
+  }
+
+  .introduction button {
+    min-width: 120px;
+    padding: 12px 28px;
+    border-radius: 16px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .block_group{
+    width: 320px;
+    height: 210px;
+    background: linear-gradient(90deg, rgba(77, 76, 76, 0.8) 0%, rgba(83, 83, 83, 0.4) 100%);
+    border-radius: 16px;
+  }
+  
+  .block-bold{
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  
+  .block_text{
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 1.3rem;
+  }
+  
+  .block-bold, .block_text{
+    padding: 18px 20px;
+  }
+  
+}
+
+@media (max-width:950px) {
+  body {
+    background: url("./img/imageTel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+  }
+
+  .introduction{
+    width: 350px;
+    height: 200px;
+    margin: 80px 25px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .introduction p{
+    font-size:1rem;
+    width: 368px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 32px;
+  }
+
+  .introduction button {
+    min-width: 100px;
+    padding: 8px 18px;
+    border-radius: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .block_group{
+    width: 320px;
+    height: 210px;
+    background: linear-gradient(90deg, rgba(77, 76, 76, 0.8) 0%, rgba(83, 83, 83, 0.4) 100%);
+    border-radius: 16px;
+    margin-top: 80px;
+  }
+  
+  .block-bold{
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  
+  .block_text{
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 1.3rem;
+  }
+  
+  .block-bold, .block_text{
+    padding: 18px 20px;
+  }
+  
+  
+}
+
+@media (max-width:800px) {
+  body {
+    background: url("./img/imageTel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+  }
+
+  .introduction{
+    width: 250px;
+    height: 150px;
+    margin: 50px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .introduction p{
+    font-size:1rem;
+    width: 268px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 32px;
+  }
+
+  .introduction button {
+    min-width: 80px;
+    padding: 8px 18px;
+    border-radius: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .block{
+    flex-direction: column;
+  }
+
+  .block_group{
+    width: 280px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(77, 76, 76, 0.8) 0%, rgba(83, 83, 83, 0.4) 100%);
+    border-radius: 16px;
+    margin-top: 100px;
+  }
+  
+  .block-bold{
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  
+  .block_text{
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 1.1rem;
+  }
+  
+  .block-bold, .block_text{
+    padding: 10px 14px;
+  }
+  
+}

@@ -1,0 +1,102 @@
+/* Réinitialisation du navigateur */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style général de page */
+
+body {
+  background: url("./img/landingPage2.png") no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+
+/* style section block de gauche */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block_left{
+  max-width: 591px;
+  height: 630px;
+  text-align: left;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%,
+  rgba(0, 0, 0, 0.1) 63%, rgba(0,0,0,0.1) 100%);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  margin: 204px 64px;
+  padding: 48px 72px;
+  border-radius: 48px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.block_left, button, .image_size {
+  transition: 0.3s ease-in-out;
+}
+
+.block_left:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 3px 5px 10px;
+}
+
+.div_block_left p{
+  margin: 24px 0;
+}
+
+.div_block_left p:nth-child(1) {
+  font-size: 1.125rem;
+}
+
+.div_block_left p:nth-child(2) {
+  width: 495px;
+  height: 172px;
+  font-size: 4rem;
+  line-height: 86px;
+  font-weight: 500;
+}
+
+.div_block_left p:nth-child(3) {
+  width: 495px;
+  height: 160px;
+  font-size: 1.5rem;
+  line-height: 32px;
+  font-size: 300;
+}
+
+button{
+  min-width: 172px;
+  background-color: #519BFD;
+  font-size: medium;
+  line-height: 18px;
+  font-size: 1.375rem;
+  padding: 24px 40px;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.1);
+  background-color: #f2f2f2;
+  color: #519BFD;
+}
+
+.block_right{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 17px;
+}
+
+.image_size:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
