@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+/*  FLUX */
+
+.flux {
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 157px 126px;
+  margin: 0 40px;
+}
+
+.header__container{
+  width:464px;
+  height: 498px;
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+  row-gap: 24px;
+}
+
+.header__title {
+  font-size: 4rem;
+}
+
+.header__description {
+  color: #363031;
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.header__button{
+  background-color: #A36A4f;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 18px;
+  border: none;
+  border-radius: 36px;
+  padding: 24px 48px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.header__button:hover {
+  background-color: #d1d1d1;
+  color: #A36A4f;
+  transform: scale(1.1);
+  box-shadow: #A36A4f 4px 4px 8px;
+  font-weight: 700;
+}
+
+
+.header__image {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__image--coffee {
+  position: relative;
+}
+
+.header__image--glass{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 50px;
+}
+
+
+/* SECTION LIST */
+
+.list{
+  width: 878px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ECDAC4;
+  padding: 24px 96px;
+  margin: 8px auto;
+  border-radius: 80px;
+}
+
+.list__block{
+  width: 686px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  text-align: center;
+}
+
+.list__item{
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.list__bold{
+  font-family:  "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.list_regular{
+  font-family:  "Poppins", sans-serif;
+  color: #363031;
+}
+
+.hero{
+  background-color: #363031;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 200px 0 50px 0;
+  margin-bottom: 20px;
+}
