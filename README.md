@@ -9,3 +9,5 @@ Optimiser l'UI/UX pour garantir une navigation fluide et une expérience utilisa
 Appliquer les principes de design modernes en termes de couleurs, typographies et mises en page.
 Créer des éléments interactifs et dynamiques si nécessaire (par exemple, des boutons, des formulaires).
 Réaliser une version mobile et responsive de chaque maquette.
+
+P.S : je ne me focalise pas encore a fond sur le responsive j'essaye vraiment de reussir le mieux possible les maquettes
