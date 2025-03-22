@@ -54,7 +54,7 @@ body {
   border: none;
   border-radius: 36px;
   padding: 24px 48px;
-  margin: 10px;
+  margin: 50px 10px 0 10px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -128,9 +128,23 @@ body {
 
 .hero{
   background-color: #363031;
-  color: #fff;
-  display: flex;
-  justify-content: space-around;
   padding: 200px 0 50px 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.hero__absolute{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero__image{
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.hero__image:hover{
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(241, 241, 241, 0.3) 4px 4px 8px;
+  transform: scale(1.1);
 }
