@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   padding: 157px 126px;
   margin: 0 40px;
+  margin-bottom: 20px;
 }
 
 .header__container{
@@ -31,7 +32,7 @@ body {
   height: 498px;
   display: flex;
   flex-direction: column;
-  margin: 32px;
+  margin: 40px;
   row-gap: 24px;
 }
 
@@ -54,7 +55,6 @@ body {
   border: none;
   border-radius: 36px;
   padding: 24px 48px;
-  margin: 50px 10px 0 10px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -96,6 +96,9 @@ body {
   padding: 24px 96px;
   margin: 8px auto;
   border-radius: 80px;
+  position: absolute;
+  top: 800px;
+  right: 280px;
 }
 
 .list__block{
@@ -128,7 +131,7 @@ body {
 
 .hero{
   background-color: #363031;
-  padding: 200px 0 50px 0;
+  padding: 130px 0 50px 0;
   margin-bottom: 50px;
 }
 
