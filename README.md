@@ -11,3 +11,8 @@ Créer des éléments interactifs et dynamiques si nécessaire (par exemple, des
 Réaliser une version mobile et responsive de chaque maquette.
 
 P.S : je ne me focalise pas encore a fond sur le responsive j'essaye vraiment de reussir le mieux possible les maquettes
+
+
+test sur la maquette de la landing page 5 :
+- responsive
+- bouton dark mode theme en js
