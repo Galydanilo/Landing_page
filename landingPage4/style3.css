@@ -170,6 +170,6 @@ body {
     text-align: center;
     flex-direction: column;
     row-gap: 24px;
-    margin-left: 2.6rem;
+    margin: 0 auto;
   }
   }
