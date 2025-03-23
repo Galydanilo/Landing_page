@@ -39,6 +39,14 @@ body{
   color: white;
 }
 
+.dark-mode .header__button{
+  background-color: rgb(39, 33, 53);
+}
+
+.dark-mode .header__button--theme {
+  background-color: #fff;
+}
+
 /* Animation du bouton */
 .header__button {
   position: relative;
