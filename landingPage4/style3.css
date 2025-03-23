@@ -6,4 +6,77 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #F4F4F4;
+}
+
+/* FLUX */
+
+.flux{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  STYLE HERO */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -160px;
+}
+
+.hero__container{
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.hero__description{
+  font-size: 1.5rem;
+  line-height: 34px;
+}
+
+.hero__button{
+  font-size: 1.375rem;
+  line-height: 18px;
+  color: #fff;
+  background-color: #333333;
+  padding: 24px 40px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: #000 4px 6px 5px 2px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.hero__button:hover{
+  color: #333333;
+  background-color: #D6EBDC;
+  transform: scale(1.1);
+}
+
+.hero__plant{
+  position: relative;
+  z-index: 1;
+  margin-top: -160px;
+}
+
+/* STYLE CARD */
+
+.card {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  border: 1px solid #333333;
+  border-radius: 32px;
+  padding: 24px 48px;
+  margin-top: -8px;
+  margin-bottom: 40px;
+  column-gap: 45px;
 }
