@@ -6,4 +6,85 @@
 
 body{
   font-family: "Lato", sans-serif;
+  height: 95vh;
+  background: url("./img/back1.png");
+  background-size: cover;
+  background-position: center;
 }
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.header__theme{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.header__button--theme{
+  width: 13px;
+  height: 13px;
+  border: 1px solid #000000;
+  background-color: #777777;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header__button {
+  width: 50px;
+  height: 17px;
+  border: 2px solid #000;
+  border-radius: 40%;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: -6rem;
+}
+
+.hero__container {
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  margin: 200px 345px;
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 1%;
+  color: #06040A;
+}
+
+.hero__description{
+  font-size: 1.5rem;
+  line-height: 32px;
+  text-align: center;
+}
+
+.hero__button{
+  min-width: 200px;
+  background-color: #06040A;
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 18px;
+  border: none;
+  border-radius: 40px;
+  padding: 24px 56px;
+}
+
+
+
