@@ -28,21 +28,43 @@ body{
   font-weight: 600;
 }
 
-.header__button--theme{
-  width: 13px;
-  height: 13px;
-  border: 1px solid #000000;
-  background-color: #777777;
-  border-radius: 50%;
-  cursor: pointer;
+/* Mode sombre */
+.dark-mode {
+  background: url('./img/back2.png') center;
+  background-size: cover;
+  color: white;
 }
 
-.header__button {
-  width: 50px;
-  height: 17px;
-  border: 2px solid #000;
-  border-radius: 40%;
+.dark-mode .hero__title {
+  color: white;
 }
+
+/* Animation du bouton */
+.header__button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.header__button--theme {
+  width: 16px;
+  height: 16px;
+  background: black;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Position du bouton en mode sombre */
+.dark-mode .header__button--theme {
+  transform: translateX(30px);
+}
+
 
 /* HERO */
 
@@ -97,3 +119,69 @@ body{
 
 
 
+@media screen and (max-width: 1300px) {
+
+  .hero__container{
+    margin: 170px 280px;
+  }
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__description{
+    font-size: 1.3rem;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .hero__container{
+    min-width: 600px;
+    margin: 170px 280px;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__description{
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  .hero__container{
+    min-width: 400px;
+    margin: 120px 220px;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__description{
+    font-size: 1.1rem;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+  .hero__container{
+    min-width: 280px;
+    margin: 120px 120px;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__description{
+    font-size: 1.1rem;
+  }
+
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr-FR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,11 @@
   <!-- HEADER : START -->
   
   <header class="header">
-    <p class="header__theme"> Thème : light</p>
+    <p class="header__theme">☀️ light</p>
     <div class="header__button">
       <div class="header__button--theme" id="theme"></div>
     </div>
-    <p class="header__theme">dark</p>
+    <p class="header__theme">🌙 dark</p>
   </header>
 
   <!-- HEADER : END -->
@@ -30,7 +30,7 @@
     <!-- SECTION HERO : START -->
     <section class="hero">
     <div class="hero__container">
-      <h1 class="hero__title">Walk through the world with us</h1>
+      <h1 id="title" class="hero__title">Walk through the world with us</h1>
       <p class="hero__description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Cursus imperdiet sed id elementum. 
@@ -38,7 +38,11 @@
         vel.
       </p>
       <div class="hero__start">
-        <button type="button" class="hero__button">Get started</button>
+        <button 
+        id="button__theme"
+        type="button" 
+        class="hero__button dark">Get started
+        </button>
       </div>
     </div>
     </section>
