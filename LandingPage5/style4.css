@@ -84,6 +84,15 @@ body{
   border: none;
   border-radius: 40px;
   padding: 24px 56px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.hero__button:hover {
+  background-color: #fff;
+  box-shadow: #06040A 2px 2px 2px 1px;
+  color: #777777;
+  transform: scale(1.02);
 }
 
 
