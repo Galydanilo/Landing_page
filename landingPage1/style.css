@@ -8,6 +8,7 @@
 /* Style général de page */
 
 body {
+  height: 110vh;
   background-image: url("./img/imagepc2.png");
   background-repeat: no-repeat;
   background-size: cover;
