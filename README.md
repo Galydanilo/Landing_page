@@ -7,11 +7,14 @@
 | Landing Page 1 | Page d'accueil d'un site e-commerce | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°23|
 | Landing Page 2 | Page de présentation d'un service | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°27 |
 | Landing Page 3 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°20 |
+| Landing Page 4 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°40 |
+| Landing Page 5 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°46 |
 
-Description
+
+## Description
 Ce projet consiste à la refonte de différentes maquettes de landing pages dans Figma. L'objectif est d'améliorer l'esthétique, l'ergonomie, et l'expérience utilisateur (UX) tout en respectant les meilleures pratiques en termes de design web.
 
-Objectifs
+## Objectifs
 Reconcevoir des maquettes de landing pages existantes.
 Optimiser l'UI/UX pour garantir une navigation fluide et une expérience utilisateur agréable.
 Appliquer les principes de design modernes en termes de couleurs, typographies et mises en page.
