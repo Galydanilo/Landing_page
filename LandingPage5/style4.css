@@ -73,6 +73,17 @@ body{
   transform: translateX(30px);
 }
 
+.dark-mode .hero__button{
+  background-color: #fff;
+  color: #06040A;
+}
+
+.dark-mode .hero__button:hover{
+  background-color: #06040A;
+  color: #fff;
+  box-shadow: #fff 1px 1px 2px;
+} 
+
 
 /* HERO */
 
