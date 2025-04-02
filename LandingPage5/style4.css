@@ -24,7 +24,7 @@ body{
 }
 
 .header__theme{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -104,7 +104,7 @@ body{
 
 .hero__title {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 1%;
   color: #06040A;
 }
