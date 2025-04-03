@@ -81,11 +81,18 @@ body {
   margin-top: 150px;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .card__image{
   max-width: 400px;
   padding-top: 60px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.card__image:hover{
+  transform: scale(1.02);
 }
 
 .card__image h2 {
