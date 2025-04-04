@@ -17,8 +17,15 @@ body {
 }
 
 .header__title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 500;
+}
+
+.header__content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start; /* Alignement à gauche comme la maquette */
 }
 
 
@@ -26,41 +33,46 @@ body {
   max-width: 520px;
   font-size: 1.6rem;
   margin-bottom: 16px;
-  color: rgba(37, 37, 37, 0.7);
+  color: #6c6c6c;
   line-height: 1.5;
 }
 
-.header__button{
+.header__button {
   background-color: #252525;
   color: #fff;
   border: none;
-  border-radius: 16px;
-  padding: 15px 30px;
+  border-radius: 10px; /* Réduire l’arrondi */
+  padding: 12px 28px; /* Ajustement */
   font-size: 1.125rem;
+  font-weight: 500; /* Légèrement plus gras */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__button:hover {
+  background-color: #3a3a3a; /* Effet hover */
 }
 
 
-img{
+
+img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 100px auto 50px auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0 20px;
 }
+
 
 @media screen and (max-width : 1100px) {
   .header__title {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
 
   .header__description {
     font-size: 1.3rem;
   }
   
-
-  img {
-    width: 980px;
-  }
 }
 
 @media screen and (max-width : 950px) {
@@ -76,17 +88,9 @@ img{
     margin-right: auto;
   }
 
-  img {
-    width: 800px;
-  }
 }
 
 
-@media screen and (max-width : 750px) {
-  img {
-    width: 650px;
-  }
-}
 
 @media screen and (max-width : 650px) {
 
@@ -100,7 +104,4 @@ img{
     font-size: 1.1rem;
   }
 
-  img {
-    width: 400px;
-  }
 }
