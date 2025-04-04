@@ -9,7 +9,10 @@
 | Landing Page 3 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°20 |
 | Landing Page 4 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°40 |
 | Landing Page 5 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°46 |
-| Landing Page 6 | Page de capture d'emails | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°1 |
+| Landing Page 6 |Galerie d'image| [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°1 |
+| Landing Page 7 | Image de nature avec display grid| [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°2 |
+| Landing Page 8 | maquette simple| [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°3 |
+| Landing Page 9 | page d'accueil | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°4 |
 
 
 ## Description
