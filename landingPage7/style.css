@@ -11,17 +11,27 @@ body {
 /* Header style */
 
 .header {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  max-height: 80vh;
+  gap: 20px;
+  margin: 0 40px;
 }
 
-.header__content,
-.header__description,
-.header__btn {
-  margin-top: 20px;
+.header__content {
+  grid-column: 1 / 2;
 }
+
+.header__img--left {
+  grid-column: 2 / 3;
+  align-self: start;
+}
+
+.header__img--right {
+  grid-column: 3 / 4;
+  align-self: end;
+}
+
 
 
 .header__content {
@@ -77,19 +87,18 @@ body {
 
 /* section card */
 
-.card__container{
-  margin-top: 150px;
-  display: flex;
-  justify-content: space-evenly;
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
-.card__image{
-  max-width: 400px;
-  padding-top: 60px;
-  transition: 0.2s ease-out;
-  cursor: pointer;
+.card__image {
+  text-align: center;
 }
+
 
 .card__image:hover{
   transform: scale(1.02);
