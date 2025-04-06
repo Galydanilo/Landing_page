@@ -204,6 +204,6 @@ textPath{
 .container__image--bigstart{
   position: absolute;
   z-index: 3;
-  top: 400px;
-  left: 360px;
+  top: 390px;
+  left: 380px;
 }
