@@ -13,6 +13,7 @@
 | Landing Page 7 | Image de nature avec display grid| [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°2 |
 | Landing Page 8 | maquette simple| [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°3 |
 | Landing Page 9 | page d'accueil | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°4 |
+| Landing Page 10 | page d'accueil | [Voir la maquette](https://www.figma.com/design/6FOWmPKH6b3xvE4WDTa2GR/50%2B-Landing-page-designs-(Community)?node-id=873-894&t=JmwkGhY236n5arfD-0) maquette n°5 |
 
 
 ## Description
