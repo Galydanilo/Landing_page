@@ -130,5 +130,47 @@ body{
   .container__list{
     min-width: 450px;
     right: 10px;
+    flex-wrap: wrap;
+    padding: 20px 58px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  
+  img {
+    width: 300px;
+  }
+
+  .header__content {
+    top: 10px;
+    right: 150px;
+  }
+
+  .header__title {
+    font-size: 3rem;
+  }
+
+  .header__description{
+    font-size: 1.1rem;
+  }
+  
+  .container{
+    flex-direction: column;
+  }
+
+
+  .container__list{
+    min-width: 400px;
+    right: -20px;
+    top: 10px;
+    padding: 20px 48px;
+  }
+
+  .list__title{
+    font-size: 1.2rem;
+  }
+
+  .bar{
+    width: 30px;
   }
 }
