@@ -13,3 +13,154 @@ body {
   grid-template-columns: repeat(3, 1fr);
   margin: 90px 64px;
 }
+
+.column__tilte {
+  color: #252525aa;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.column__description {
+  max-width: 434px;
+  color: #252525aa;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.column__flex1--logo{
+  margin-top: 15px;
+  display: flex;
+  margin-right: 30px;
+}
+
+.column__flex1--left {
+  align-self: flex-start;
+}
+
+.column__flex1--right{
+  align-self: flex-end;
+  position: relative;
+  margin-left: 70px;
+}
+
+.column__flex1--bottom{
+  margin-top: -130px;
+}
+
+.column__image-right:hover,
+.column__flex1--bottom:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
+}
+
+
+
+.column__flex2{
+  position: relative;
+  background-image: url("./images/Gradient\ bg.svg");
+  background-repeat: no-repeat;
+  background-position: top ;
+  background-size: 500px 811px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: -150px;
+  margin-left: -100px;
+  text-align: center;
+  row-gap: 48px;
+  z-index: 3;
+}
+
+
+.column__bigtitle {
+  font-size: 7rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.column__text {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 55px;
+  color: #252525aa;
+}
+
+
+.column__button {
+  margin: 0 auto;
+}
+
+.column__btn {
+  min-width: 180px;
+  background-color: #252525;
+  color: #fff;
+  padding: 24px 48px;
+  border: none;
+  border-radius: 36px;
+  font-size: 1.5rem;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.column__btn:hover {
+  min-width: 200px;
+  box-shadow: #252525aa 1px 2px 5px;
+  background-color: #fff;
+  color: #252525;
+  font-weight: 600;
+}
+
+.column__flex3{
+  margin-top: -50px;
+}
+
+.column__flex3--logo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: -80px;
+  margin-left: -110px;
+  text-align: center;
+  row-gap: 48px;
+  z-index: 4;
+}
+
+.column__flex3--right{
+  margin-top: 100px;
+  margin-left: 20px;
+} 
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.column__flex2 {
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .column {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "center"
+      "left"
+      "right";
+  }
+
+  .column__flex1,
+  .column__flex2,
+  .column__flex3 {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
