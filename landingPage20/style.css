@@ -114,3 +114,23 @@ body {
   row-gap: 32px;
 }
 
+@media (max-width: 1024px) {
+  .column {
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+  
+  .column__content {
+    align-items: center;
+  }
+
+  .column__image,
+  .column__image--right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle__flex {
+    order: -1; /* Pour le remonter si besoin */
+  }
+}
