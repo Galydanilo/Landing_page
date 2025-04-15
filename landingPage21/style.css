@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color: #09212C;
+  height: 110vh;
+  background-image: url("./images/AI\ image\ -\ OpenAI.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header__card {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+  backdrop-filter: blur(2px);
+  padding: 2rem;
+  border-radius: 16px;
+  color: white;
+  max-width: 724px;
+  margin: 180px 64px;
+  padding: 40px 56px;
+}
+  
+
+.header__content {
+  max-width: 612px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 40px;
+}
+
+.color {
+  min-width: 80px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.color__yellow,
+.color__lightblue,
+.color__green,
+.color__tomato,
+.color__blue {
+  width: 16px;
+  height: 16px;
+}
+
+.color__yellow {
+  background-color: #FFFF67;
+}
+
+.color__lightblue {
+  background-color: #3FFFFF;
+}
+
+.color__green {
+  background-color: #52DC4B;
+}
+
+.color__tomato {
+  background-color: #FF6E3D;
+}
+
+.color__blue {
+  background-color: #3D45FF;
+}
+
+.header__content--title {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+
+.header__content--description {
+  max-width: 586px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.header__btn {
+  min-width: 180px;
+  background-color: #63E1E1;
+  padding: 24px 48px;
+  border: none;
+  border-radius: 36px;
+  font-size: 1.5rem;
+}
+
+.list__content {
+  max-width: 1312px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 24px 56px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+  backdrop-filter: blur(3px);
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 32px;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
+.list__content--item {
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: flex-start;
+}
+
+
+@media screen and (max-width: 750px) {
+
+  body {
+    background-position: top;
+    background-size: auto;
+  }
+
+  .header__content--title {
+    text-align: center;
+  }
+
+  .header__content--description {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .header__button {
+    margin: 0 auto;
+  }
+
+  .list__content {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list__content--item {
+    min-width: 300px;
+  }
+  
+}
